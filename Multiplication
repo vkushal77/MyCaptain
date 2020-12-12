@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main ()
+{
+    float a,b,result;
+
+        cout<<"Enter the numbers of which  you want to do the multiplication\n";
+        cin>>a;
+        cin>>b;
+        result= a*b;
+        cout<<"The multiplication of the numbers are :"<<result;
+        return 0;
+
+}
